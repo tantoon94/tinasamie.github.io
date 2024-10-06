@@ -1,0 +1,142 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  background-color: #140f2d;
+  place-items: center;
+  
+}
+
+#container {
+  background-color: #323366;
+  width:80%;
+  max-width: 900px;
+  border: 4px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: grid;
+}
+
+/* Navigation styles */
+nav {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #7fffd4;
+  border-bottom: 2px solid #7fffd4;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px 15px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 18px;
+}
+
+/* Header section */
+header {
+  text-align: left;
+  color: rgb(82, 213, 176);
+  margin-left: 10px;
+}
+
+#heading {
+  font-size: 18px;
+}
+
+h1 {
+  margin-bottom: 0;
+ }
+
+#subtitle { 
+  font-size: 9px;
+  color: antiquewhite;
+  margin-left: 5px;
+}
+
+/* Content section */
+
+.inner {
+padding: 20px;
+overflow: hidden;
+}
+
+#inner img {
+  float: right;
+  width: 30%;
+  height:fit-content;
+  margin: 30px 30px 30px 30px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+#inner p {
+  padding-right: 20px;
+  text-align: justify;
+  margin: 20px;
+  color: antiquewhite;
+}
+
+
+/* Footer section */
+.footer-info {
+  float: left;
+  clear: both;
+  background-color: #497271b3;
+  display: flex;
+  color: antiquewhite;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 2px solid #7fffd4;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  text-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+}
+
+#footer-column-left {
+  width: 33%;
+  float: left;
+  flex-direction: column;
+  justify-content: left; 
+  text-decoration: none;
+}
+
+#footer-column-left a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+#footer-column-center {
+  width: 33%;
+  text-align: left;
+  justify-content: left;
+  flex-direction: column;
+  float:inline-end;
+}
+
+#footer-column-right {
+  float: right;
+  width: 33%;
+  justify-content: right;
+  flex-direction: column;
+
+}
+
+
+
